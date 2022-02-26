@@ -31,6 +31,11 @@ class _HomeState extends State<Home> {
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: const [
+            FlutterLogo(
+              size: 300,
+              textColor: Colors.blue,
+              style: FlutterLogoStyle.stacked,
+            ), //Flutter
             Text("Hello"),
           ],
         ),
